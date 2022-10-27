@@ -1,0 +1,77 @@
+:root {
+    --background: #red;
+    --text: #ff00ae;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background: var(--background);
+}
+
+.container {
+    padding: 10px;
+    min-height: 90vh;
+    margin: 3vh auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: rgb(200, 195, 195);
+
+    box-shadow: inset 2px 2px 5px var(--text),
+        inset -2px -2px 5px var(--text);
+    border-radius: 7px;
+}
+
+.title {
+    margin: 20px 0;
+    font-size: 4rem;
+    font-weight: bolder;
+    opacity: 0.9;
+    color: #000;
+}
+
+.drum {
+    width: 150px;
+    height: 150px;
+    background: white;
+    color: var(--text);
+    font-size: 3rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1),
+        1px 1px 3px rgba(0, 0, 0, 0.8);
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.drum{
+    border-radius: 50%;
+
+}
+
+
+.util__buttons {
+    margin-top: 40px;
+}
+
+.util__buttons>button {
+    height: 50px;
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: white;
+    color: var(--text);
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1),
+        1px 1px 3px rgba(0, 0, 0, 0.8);
+    margin: 10px 4px;
+    cursor: pointer;
+}
